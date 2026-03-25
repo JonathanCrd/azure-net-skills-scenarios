@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# .NET artifacts
+*.dll
+*.exe
+*.pdb
+*.nupkg
+
+# Waza output
+results/
+*.results.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# LLM evaluation outputs (these are tracked intentionally when added)
+# evaluation-results.md files are tracked
